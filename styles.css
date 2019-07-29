@@ -4,8 +4,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    padding: 0px 8px;
+}
+
 .placeholder-container {
-    width: 100vw;
+    width: 100%;
     margin: 15% 0%;
     display: grid;
     align-items: center;
@@ -20,4 +24,10 @@ body {
 .placeholder-container h1 {
     margin: 0;
     font-size: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 0;
+    }
 }
