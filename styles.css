@@ -1,0 +1,22 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.placeholder-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.cfa-logo {
+    width: 100%;
+}
+
+.placeholder-container h1 {
+    margin: 0;
+    font-size: 64px;
+}
