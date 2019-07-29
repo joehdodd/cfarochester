@@ -6,10 +6,11 @@ body {
 
 .placeholder-container {
     width: 100vw;
-    height: 100vh;
+    margin: 15% 0%;
     display: grid;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .cfa-logo {
