@@ -2,10 +2,18 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-auto-flow: row;
+    height: 100vh;
 }
 
 main {
     padding: 0px 8px;
+}
+
+footer {
+    display: grid;
+    padding: 8px 0px;
 }
 
 .placeholder-container {
@@ -24,6 +32,17 @@ main {
 .placeholder-container h1 {
     margin: 0;
     font-size: 64px;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.footer-container {
+    width: 100%;
+    display: grid;
+    align-items: end;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
